@@ -1,0 +1,8 @@
+[
+  {
+    "id": "abah29ydna",
+    "name": "a-validator",
+    "validateRequestBody": true,
+    "validateRequestParameters": true
+  }
+]

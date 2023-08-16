@@ -1,0 +1,14 @@
+[
+  {
+    "Estimated": false,
+    "Groups": [],
+    "TimePeriod": { "End": "2023-08-01", "Start": "2023-07-01" },
+    "Total": { "UnblendedCost": { "Amount": "11.2021013761", "Unit": "USD" } }
+  },
+  {
+    "Estimated": true,
+    "Groups": [],
+    "TimePeriod": { "End": "2023-08-16", "Start": "2023-08-01" },
+    "Total": { "UnblendedCost": { "Amount": "3.8697311805", "Unit": "USD" } }
+  }
+]

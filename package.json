@@ -1,0 +1,94 @@
+{
+  "name": "archfit",
+  "description": "Validate the fitness of your AWS solutions, without the heavy lifting!",
+  "version": "1.0.0",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "fitness-functions",
+    "evolutionary-architecture",
+    "architecture",
+    "architecture-tests",
+    "testing",
+    "software-architecture"
+  ],
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelvesavuori/archfit"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelvesavuori/archfit/issues"
+  },
+  "homepage": "https://github.com/mikaelvesavuori/archfit",
+  "files": [
+    "/dist",
+    "!/dist/**/*.map",
+    "!/tests"
+  ],
+  "bin": {
+    "archfit": "dist/index.js"
+  },
+  "scripts": {
+    "start": "npx ts-node src/test.ts",
+    "test": "npm run test:licenses && npm run test:types && npm run test:unit",
+    "test:types": "npx type-coverage --at-least 97 --strict --ignore-files \"tests/**/*.ts\" --ignore-files \"*.ts\" --ignore-files \"src/application/errors/*.ts\" --ignore-files \"testdata/*.ts\"",
+    "test:licenses": "npx license-compliance --direct --allow 'MIT;ISC;0BSD;BSD-2-Clause;BSD-3-Clause;Apache-2.0;Unlicense;CC0-1.0'",
+    "test:unit": "npx c8 -reporter=lcov ava",
+    "build": "npm run clean && npm run build:ncc",
+    "build:ncc": "npx ncc build src/index.ts --license licenses.txt",
+    "clean": "rm -rf dist && mkdir -p dist",
+    "package": "npm pack",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@aws-sdk/client-api-gateway": "3",
+    "@aws-sdk/client-cloudwatch": "3",
+    "@aws-sdk/client-cloudwatch-logs": "3",
+    "@aws-sdk/client-cost-explorer": "3",
+    "@aws-sdk/client-dynamodb": "3",
+    "@aws-sdk/client-ec2": "3",
+    "@aws-sdk/client-ecs": "3",
+    "@aws-sdk/client-lambda": "3",
+    "@aws-sdk/client-rds": "3",
+    "@aws-sdk/client-resource-groups-tagging-api": "3",
+    "@aws-sdk/client-s3": "3"
+  },
+  "devDependencies": {
+    "@ava/typescript": "4",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "5",
+    "@typescript-eslint/parser": "5",
+    "@vercel/ncc": "0",
+    "ava": "5",
+    "c8": "8",
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsdoc": "latest",
+    "eslint-plugin-prettier": "4",
+    "husky": "8",
+    "license-compliance": "latest",
+    "prettier": "2",
+    "ts-node": "latest",
+    "type-coverage": "2",
+    "typescript": "5"
+  },
+  "ava": {
+    "typescript": {
+      "rewritePaths": {
+        "src/": "dist/"
+      },
+      "compile": false
+    },
+    "files": [
+      "tests/**/*.ts",
+      "!tests/utils/*.ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}

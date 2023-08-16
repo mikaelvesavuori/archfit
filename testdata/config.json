@@ -1,0 +1,7 @@
+{
+  "region": "eu-north-1",
+  "currency": "EUR",
+  "period": 30,
+  "writeReport": false,
+  "tests": [{ "name": "APIGatewayErrorRate", "threshold": 0 }]
+}

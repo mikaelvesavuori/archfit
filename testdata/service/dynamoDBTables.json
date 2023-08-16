@@ -1,0 +1,104 @@
+[
+  {
+    "AttributeDefinitions": [
+      { "AttributeName": "pk", "AttributeType": "S" },
+      { "AttributeName": "sk", "AttributeType": "S" }
+    ],
+    "BillingModeSummary": {
+      "BillingMode": "PAY_PER_REQUEST",
+      "LastUpdateToPayPerRequestDateTime": "2023-07-04T16:18:53.689Z"
+    },
+    "CreationDateTime": "2023-07-04T16:18:53.689Z",
+    "DeletionProtectionEnabled": false,
+    "ItemCount": 5,
+    "KeySchema": [
+      { "AttributeName": "pk", "KeyType": "HASH" },
+      { "AttributeName": "sk", "KeyType": "RANGE" }
+    ],
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "ReadCapacityUnits": 0,
+      "WriteCapacityUnits": 0
+    },
+    "TableArn": "arn:aws:dynamodb:eu-north-1:123412341234:table/BountiesTable",
+    "TableId": "bcbb85c1-cb17-429c-91d5-b38c40ef33d6",
+    "TableName": "BountiesTable",
+    "TableSizeBytes": 182,
+    "TableStatus": "ACTIVE"
+  },
+  {
+    "AttributeDefinitions": [
+      { "AttributeName": "pk", "AttributeType": "S" },
+      { "AttributeName": "sk", "AttributeType": "S" }
+    ],
+    "BillingModeSummary": {
+      "BillingMode": "PAY_PER_REQUEST",
+      "LastUpdateToPayPerRequestDateTime": "2023-07-04T13:55:52.634Z"
+    },
+    "CreationDateTime": "2023-07-04T13:55:52.634Z",
+    "DeletionProtectionEnabled": false,
+    "ItemCount": 5,
+    "KeySchema": [
+      { "AttributeName": "pk", "KeyType": "HASH" },
+      { "AttributeName": "sk", "KeyType": "RANGE" }
+    ],
+    "LatestStreamArn": "arn:aws:dynamodb:eu-north-1:123412341234:table/DamagesEventsTable/stream/2023-07-04T13:55:52.634",
+    "LatestStreamLabel": "2023-07-04T13:55:52.634",
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "ReadCapacityUnits": 0,
+      "WriteCapacityUnits": 0
+    },
+    "StreamSpecification": {
+      "StreamEnabled": true,
+      "StreamViewType": "NEW_IMAGE"
+    },
+    "TableArn": "arn:aws:dynamodb:eu-north-1:123412341234:table/DamagesEventsTable",
+    "TableId": "d3b8a5b1-8eda-4364-bba8-f375f76a3b2b",
+    "TableName": "DamagesEventsTable",
+    "TableSizeBytes": 262,
+    "TableStatus": "ACTIVE"
+  },
+  {
+    "AttributeDefinitions": [{ "AttributeName": "pk", "AttributeType": "S" }],
+    "BillingModeSummary": {
+      "BillingMode": "PAY_PER_REQUEST",
+      "LastUpdateToPayPerRequestDateTime": "2023-07-04T13:55:52.734Z"
+    },
+    "CreationDateTime": "2023-07-04T13:55:52.734Z",
+    "DeletionProtectionEnabled": false,
+    "ItemCount": 5,
+    "KeySchema": [{ "AttributeName": "pk", "KeyType": "HASH" }],
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "ReadCapacityUnits": 0,
+      "WriteCapacityUnits": 0
+    },
+    "TableArn": "arn:aws:dynamodb:eu-north-1:123412341234:table/DamagesTable",
+    "TableId": "a32db0d4-7b15-4f25-87bd-352c02f07fc0",
+    "TableName": "DamagesTable",
+    "TableSizeBytes": 132,
+    "TableStatus": "ACTIVE"
+  },
+  {
+    "AttributeDefinitions": [{ "AttributeName": "pk", "AttributeType": "S" }],
+    "BillingModeSummary": {
+      "BillingMode": "PROVISIONED",
+      "LastUpdateToPayPerRequestDateTime": "2023-07-04T13:55:52.734Z"
+    },
+    "CreationDateTime": "2023-07-04T13:55:52.734Z",
+    "DeletionProtectionEnabled": false,
+    "ItemCount": 5,
+    "KeySchema": [{ "AttributeName": "pk", "KeyType": "HASH" }],
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 2
+    },
+    "TableArn": "arn:aws:dynamodb:eu-north-1:123412341234:table/SomeDemoTable",
+    "TableId": "a32db0d4-7b15-4f25-87bd-352c02f07fc0",
+    "TableName": "SomeDemoTable",
+    "TableSizeBytes": 132,
+    "TableStatus": "ACTIVE"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "name": "APIGatewayErrorRate",
+    "success": true,
+    "threshold": 0,
+    "actual": "0.00%"
+  },
+  {
+    "name": "APIGatewayRequestValidation",
+    "success": true,
+    "threshold": 0,
+    "actual": "0.00%"
+  },
+  {
+    "name": "CustomTaggedResources",
+    "success": true,
+    "threshold": 50,
+    "actual": "70.00%"
+  },
+  {
+    "name": "SpendTrend",
+    "success": true,
+    "threshold": 0,
+    "actual": "Predicted spend is 66.93% of last month's spend"
+  },
+  {
+    "name": "DynamoDBOnDemandMode",
+    "success": true,
+    "threshold": 100,
+    "actual": "Found 3 DynamoDB tables, of which 3 are using on-demand mode): 100.00%"
+  },
+  {
+    "name": "DynamoDBProvisionedThroughput",
+    "success": true,
+    "threshold": 5,
+    "actual": { "success": true }
+  },
+  {
+    "name": "LambdaArchitecture",
+    "success": true,
+    "threshold": 100,
+    "actual": "100.00%"
+  },
+  {
+    "name": "LambdaDeadLetterQueueUsage",
+    "success": false,
+    "threshold": 100,
+    "actual": "0.00%"
+  },
+  {
+    "name": "LambdaMemoryCap",
+    "success": false,
+    "threshold": 512,
+    "actual": "Found 7 oversized functions (over 512 MB)"
+  },
+  {
+    "name": "LambdaRuntimes",
+    "success": true,
+    "threshold": 100,
+    "actual": "100.00%"
+  },
+  {
+    "name": "LambdaTimeouts",
+    "success": false,
+    "threshold": 0,
+    "actual": [
+      {
+        "functionName": "step-functions-demo-damages-prod-ValidateInput",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-damages-prod-GetTaxLevel",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-bounty-prod-GetBounties",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-damages-prod-CalculateDamages",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-damages-prod-GetEmperorMood",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-damages-prod-GetRiskScore",
+        "value": "0.00%"
+      },
+      {
+        "functionName": "step-functions-demo-bounty-prod-AddBounty",
+        "value": "0.00%"
+      }
+    ]
+  },
+  {
+    "name": "LambdaVersioning",
+    "success": true,
+    "threshold": 0,
+    "actual": "Versioning is used in 0/7 functions"
+  },
+  {
+    "name": "PublicExposure",
+    "success": false,
+    "threshold": 0,
+    "actual": "Detected 2 public resources (2 S3 buckets, 0 RDS databases)"
+  },
+  {
+    "name": "RatioServersToServerless",
+    "success": true,
+    "threshold": 0,
+    "actual": "0.00%"
+  }
+]

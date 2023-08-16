@@ -1,0 +1,18 @@
+{
+  "BountiesTable": {
+    "readCapacityUtilization": 4,
+    "writeCapacityUtilization": 2
+  },
+  "DamagesEventsTable": {
+    "readCapacityUtilization": 1,
+    "writeCapacityUtilization": 1
+  },
+  "DamagesTable": {
+    "readCapacityUtilization": 12,
+    "writeCapacityUtilization": 3
+  },
+  "SomeDemoTable": {
+    "readCapacityUtilization": 29,
+    "writeCapacityUtilization": 18
+  }
+}

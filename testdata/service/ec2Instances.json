@@ -1,0 +1,19 @@
+[
+  {
+    "Groups": [
+      {
+        "GroupName": "demo-value",
+        "GroupId": "demo-value"
+      }
+    ],
+    "Instances": [
+      {
+        "InstanceId": "demo-value",
+        "InstanceType": "a1.medium"
+      }
+    ],
+    "OwnerId": "demo-value",
+    "RequesterId": "demo-value",
+    "ReservationId": "demo-value"
+  }
+]

@@ -1,0 +1,742 @@
+[
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/vzmkghfdyk/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/2b81b1e0-0e95-11ee-b46b-0a3794ce2bb8"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/6ieacpfom2/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/1200f340-0eac-11ee-942f-06ae19d3d51a"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/coi0uiweag/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/7f5d03d0-1649-11ee-bb47-067c2c3fc830"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/nur6at09ih/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "greeter-testing-prod"
+      },
+      { "Key": "Usage", "Value": "greeter-testing" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/greeter-testing-prod/39367010-1fd8-11ee-bd27-0647fa237380"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/o5keheeuk4/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-dev"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-dev/e713fcf0-197c-11ee-a94b-0e77687fc4dc"
+      },
+      { "Key": "STAGE", "Value": "dev" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/3c29dwv2k0/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "aws-wat-aggregator-prod"
+      },
+      { "Key": "Usage", "Value": "aws-wat-aggregator" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/aws-wat-aggregator-prod/df679610-f550-11ed-b007-0e80fe36cca2"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/lpw2ffcjjf/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/9a04d4a0-0b6e-11ee-a52a-06782274599a"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/vwdguppsp0/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dotnet-lambda-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dotnet-lambda-demo-prod/f3ff1890-305c-11ee-bf61-060f39805836"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:events:eu-north-1:123412341234:rule/DO-NOT-DELETE-AmazonInspectorEc2ManagedRule",
+    "Tags": []
+  },
+  {
+    "ResourceARN": "arn:aws:lambda:eu-north-1:123412341234:function:step-functions-demo-damages-prod-GetRiskScore",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "GetRiskScoreLambdaFunction"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:logs:eu-north-1:123412341234:log-group:/aws/lambda/step-functions-demo-damages-prod-StateMachineLogs",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "StateMachineLogs" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:logs:eu-north-1:123412341234:log-group:/aws/lambda/step-functions-demo-damages-prod-GetRiskScore",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "GetRiskScoreLogGroup"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:logs:eu-north-1:123412341234:log-group:/aws/lambda/step-functions-demo-bounty-prod-AddBounty",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "AddBountyLogGroup" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:logs:eu-north-1:123412341234:log-group:/aws/lambda/step-functions-demo-bounty-prod-GetBounties",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "GetBountiesLogGroup" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:s3:::step-functions-demo-boun-serverlessdeploymentbuck-19j8j8j2kze4r",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "ServerlessDeploymentBucket"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:s3:::stackset-tf-stackset-cloudfront-dum-dummys3bucket-1grr0xpfpr9r",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "StackSet-tf-stackset-cloudfront-dummy-instance-ac4aa79a-4c6d-4a9d-b9f5-1136ca4dc3ff"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/StackSet-tf-stackset-cloudfront-dummy-instance-ac4aa79a-4c6d-4a9d-b9f5-1136ca4dc3ff/73728280-ddef-11ed-8373-0a0540ecfdfc"
+      },
+      { "Key": "aws:cloudformation:logical-id", "Value": "DummyS3Bucket" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/o0xce1x7tl/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-user-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-user" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-user-prod/a65488c0-d84e-11ed-af78-0ad123aa533c"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/0y7iruu9u3/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "greeter-testing-prod"
+      },
+      { "Key": "Usage", "Value": "greeter-testing" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/greeter-testing-prod/39367010-1fd8-11ee-bd27-0647fa237380"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/qg3ozzypfj/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/2b81b1e0-0e95-11ee-b46b-0a3794ce2bb8"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/jcskouuby5/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-cdc-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-cdc-prod/ed323ba0-1649-11ee-8d6d-0eef69f393fa"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo-cdc" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/4eyemlw1vg/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "slack-devex-survey-prod"
+      },
+      { "Key": "Usage", "Value": "slack-devex-survey" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/slack-devex-survey-prod/d3b61f10-15eb-11ee-80dd-0e6e2490f748"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/focpyybp42/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-dev"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-dev/7463f540-1975-11ee-a941-0ea2fc63b562"
+      },
+      { "Key": "STAGE", "Value": "dev" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/2xdd6o6x46/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-greet-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-greet" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-greet-prod/3f553fb0-bf4a-11ed-8d11-06de2f06e33a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/7aqco7rko4/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-greet-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-greet" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-greet-prod/da14ecf0-b8d6-11ed-a161-0e5c0026c042"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/x6my7taw5f",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApi" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/c6egwnz3ad/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/32f19f00-0eb1-11ee-b4d4-0a7acf41f3be"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/l3p9n8jd4i/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "dynamodb-outbox-demo-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/dynamodb-outbox-demo-prod/2b81b1e0-0e95-11ee-b46b-0a3794ce2bb8"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "dynamodb-outbox-demo" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/restapis/axaxa12345/stages/prod",
+    "Tags": [{ "Key": "Usage", "Value": "step-functions-demo-damages" }]
+  },
+  {
+    "ResourceARN": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a",
+    "Tags": [
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      { "Key": "STAGE", "Value": "prod" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628",
+    "Tags": [
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      { "Key": "STAGE", "Value": "prod" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:dynamodb:eu-north-1:123412341234:table/BountiesTable",
+    "Tags": [
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      { "Key": "STAGE", "Value": "prod" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:dynamodb:eu-north-1:123412341234:table/DamagesTable",
+    "Tags": [
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      { "Key": "STAGE", "Value": "prod" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:events:eu-north-1:123412341234:rule/DO-NOT-DELETE-AmazonInspectorEcrManagedRule",
+    "Tags": []
+  },
+  {
+    "ResourceARN": "arn:aws:events:eu-north-1:123412341234:rule/DO-NOT-DELETE-AmazonInspectorEc2TagManagedRule",
+    "Tags": []
+  },
+  {
+    "ResourceARN": "arn:aws:lambda:eu-north-1:123412341234:function:step-functions-demo-damages-prod-GetEmperorMood",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "GetEmperorMoodLambdaFunction"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:lambda:eu-north-1:123412341234:function:step-functions-demo-bounty-prod-GetBounties",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "GetBountiesLambdaFunction"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:pipes:eu-north-1:123412341234:pipe/step-functions-demo-damages-prod-added",
+    "Tags": [
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      { "Key": "STAGE", "Value": "prod" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:s3:::step-functions-demo-dama-serverlessdeploymentbuck-4lwr7xatgyd6",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      {
+        "Key": "aws:cloudformation:logical-id",
+        "Value": "ServerlessDeploymentBucket"
+      }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:states:eu-north-1:123412341234:stateMachine:StateMachineDemo",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-damages-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-damages" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "StateMachineDemo" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/vc42ntmhdk/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "aws-wat-collector-prod"
+      },
+      { "Key": "Usage", "Value": "aws-wat-collector" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/aws-wat-collector-prod/06e71960-f554-11ed-a27e-0635e2c8ee92"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/0p2czc3v1g/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-greet-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-greet" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-greet-prod/eab32300-bff3-11ed-9757-062013cc6f96"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/8h1x83oyig/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/f13dd7e0-1a72-11ee-bbc7-0aa0e6f41d44"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/qhpydoxz9j/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "greeter-testing-prod"
+      },
+      { "Key": "Usage", "Value": "greeter-testing" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/greeter-testing-prod/39367010-1fd8-11ee-bd27-0647fa237380"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/0cofyvxdtd/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "slack-devex-survey-dev"
+      },
+      { "Key": "Usage", "Value": "slack-devex-survey" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/slack-devex-survey-dev/0d710560-0db0-11ee-b212-0a8020ba5c8a"
+      },
+      { "Key": "STAGE", "Value": "dev" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/6z4vanuky6/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "github-dora-metrics-prod"
+      },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/github-dora-metrics-prod/be89a670-e68e-11ed-8188-0aec46553b78"
+      },
+      { "Key": "stage", "Value": "prod" },
+      { "Key": "service", "Value": "github-dora-metrics" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" },
+      { "Key": "runtime", "Value": "nodejs18.x" },
+      { "Key": "region", "Value": "eu-north-1" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/x6my7taw5f/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-prod"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-prod/5916cb70-1a86-11ee-ab68-065d2426f77a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/99hpnax7kh/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-greet-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-greet" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-greet-prod/3f553fb0-bf4a-11ed-8d11-06de2f06e33a"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/ucpkiffpzk/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-user-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-user" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-user-prod/944666a0-b8d5-11ed-915a-06a8a5af1e94"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/tpambn1y84/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "step-functions-demo-bounty-dev"
+      },
+      { "Key": "Usage", "Value": "step-functions-demo-bounty" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-bounty-dev/f7b012a0-1a63-11ee-b4a5-063d8b1b728c"
+      },
+      { "Key": "STAGE", "Value": "dev" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  },
+  {
+    "ResourceARN": "arn:aws:apigateway:eu-north-1::/apis/wkwabaj2gg/stages/$default",
+    "Tags": [
+      {
+        "Key": "aws:cloudformation:stack-name",
+        "Value": "serverless-observability-demo-greet-prod"
+      },
+      { "Key": "Usage", "Value": "serverless-observability-demo-greet" },
+      {
+        "Key": "aws:cloudformation:stack-id",
+        "Value": "arn:aws:cloudformation:eu-north-1:123412341234:stack/serverless-observability-demo-greet-prod/cbbce8b0-d84d-11ed-a1f9-06bccd10b7de"
+      },
+      { "Key": "STAGE", "Value": "prod" },
+      { "Key": "aws:cloudformation:logical-id", "Value": "HttpApiStage" }
+    ]
+  }
+]

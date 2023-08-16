@@ -1,0 +1,17 @@
+[
+  {
+    "apiKeySource": "HEADER",
+    "createdDate": "2023-07-04T13:55:52.000Z",
+    "disableExecuteApiEndpoint": false,
+    "endpointConfiguration": { "ipv6": false, "types": ["EDGE"] },
+    "id": "axaxa12345",
+    "name": "prod-step-functions-demo-damages",
+    "tags": {
+      "STAGE": "prod",
+      "Usage": "step-functions-demo-damages",
+      "aws:cloudformation:logical-id": "ApiGatewayRestApi",
+      "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:123412341234:stack/step-functions-demo-damages-prod/5ddb2160-1a72-11ee-840b-069f1a3ef628",
+      "aws:cloudformation:stack-name": "step-functions-demo-damages-prod"
+    }
+  }
+]

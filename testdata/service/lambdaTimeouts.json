@@ -1,0 +1,37 @@
+[
+  {
+    "functionName": "step-functions-demo-damages-prod-ValidateInput",
+    "invocationsCount": 72874,
+    "timeoutsCount": 28
+  },
+  {
+    "functionName": "step-functions-demo-damages-prod-GetTaxLevel",
+    "invocationsCount": 1287,
+    "timeoutsCount": 12
+  },
+  {
+    "functionName": "step-functions-demo-bounty-prod-GetBounties",
+    "invocationsCount": 148912,
+    "timeoutsCount": 241
+  },
+  {
+    "functionName": "step-functions-demo-damages-prod-CalculateDamages",
+    "invocationsCount": 417223,
+    "timeoutsCount": 371
+  },
+  {
+    "functionName": "step-functions-demo-damages-prod-GetEmperorMood",
+    "invocationsCount": 41228,
+    "timeoutsCount": 41
+  },
+  {
+    "functionName": "step-functions-demo-damages-prod-GetRiskScore",
+    "invocationsCount": 1234,
+    "timeoutsCount": 0
+  },
+  {
+    "functionName": "step-functions-demo-bounty-prod-AddBounty",
+    "invocationsCount": 128,
+    "timeoutsCount": 3
+  }
+]
