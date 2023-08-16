@@ -188,7 +188,7 @@ class FitnessDataService implements DataService {
 
   private async getDataForS3(region: string) {
     if (
-      (this.hasTest('PublicExposure') || this.hasTest('PublicExposure')) &&
+      this.hasTest('PublicExposure') &&
       !this.dataStore.hasData('exposedDatabases') &&
       !this.dataStore.hasData('publicS3Buckets')
     ) {

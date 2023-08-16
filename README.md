@@ -1,5 +1,7 @@
 # ArchFit 📐🏋️‍♀️
 
+![Build Status](https://github.com/mikaelvesavuori/archfit/workflows/main/badge.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mikaelvesavuori_archfit&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mikaelvesavuori_archfit)  [![codecov](https://codecov.io/gh/mikaelvesavuori/archfit/branch/main/graph/badge.svg?token=LDZV8XOA4X)](https://codecov.io/gh/mikaelvesavuori/archfit) [![Maintainability](https://api.codeclimate.com/v1/badges/58d01463d845567aae9b/maintainability)](https://codeclimate.com/github/mikaelvesavuori/archfit/maintainability)
+
 ## Validate the fitness of your AWS solutions — without the heavy lifting!
 
 Currently, ArchFit enables you to check:
