@@ -1,7 +1,7 @@
 {
   "name": "archfit",
   "description": "Validate the fitness of your AWS solutions, without the heavy lifting!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "keywords": [
@@ -59,19 +59,19 @@
   "devDependencies": {
     "@ava/typescript": "4",
     "@types/node": "latest",
-    "@typescript-eslint/eslint-plugin": "5",
-    "@typescript-eslint/parser": "5",
+    "@typescript-eslint/eslint-plugin": "6",
+    "@typescript-eslint/parser": "6",
     "@vercel/ncc": "0",
     "ava": "5",
     "c8": "8",
     "eslint": "8",
-    "eslint-config-prettier": "8",
+    "eslint-config-prettier": "9",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jsdoc": "latest",
-    "eslint-plugin-prettier": "4",
+    "eslint-plugin-prettier": "5",
     "husky": "8",
     "license-compliance": "latest",
-    "prettier": "2",
+    "prettier": "3",
     "ts-node": "latest",
     "type-coverage": "2",
     "typescript": "5"

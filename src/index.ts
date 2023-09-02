@@ -6,14 +6,9 @@ import { exists } from './infrastructure/utils/io/exists';
 import { readFile } from './infrastructure/utils/io/readFile';
 
 /**
- * @description Runs ArchFit from the command line. If it can be inferred
- * that we are not in a CLI environment, then it does nothing.
+ * @description Runs ArchFit from the command line.
  */
 async function main() {
-  const isRunFromCommandLine =
-    process.argv[1] && process.argv[1].includes('node_modules/.bin/archfit');
-  if (!isRunFromCommandLine) return;
-
   console.log('Running ArchFit...');
 
   const configExists = exists('archfit.json');
